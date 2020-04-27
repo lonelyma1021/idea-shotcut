@@ -1,5 +1,6 @@
 package me.toshiba.practice.shortcut;
 
+import me.toshiba.practice.shortcut.editing.Ctrl_Shift_Enter;
 import me.toshiba.practice.shortcut.editing.Ctrl_Shift_Space;
 import me.toshiba.practice.shortcut.editing.Ctrl_Space;
 import me.toshiba.practice.shortcut.editing.Ctrl_Virgule;
@@ -17,4 +18,7 @@ public class EditingOutline {
 
     // 注释代码行
     Ctrl_Virgule singleLineComment;
+
+    // 语句补全
+    Ctrl_Shift_Enter statementComplete;
 }

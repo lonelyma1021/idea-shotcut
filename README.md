@@ -1,4 +1,4 @@
-## IDEA设置及常用快捷键
+## IDEA易用性设置
 
 ### 常用设置
 
@@ -23,3 +23,9 @@ Settings -> Editor -> General -> Code Completion -> Match case
 
 ###### 修改文件字符编码
 Settings -> Editor -> File Encodings -> Global Encoding
+
+## IDEA快捷键
+
+|     功能    |    快捷键    |     功能    |    快捷键    |
+|:-----------:|:-----------:|:-----------:|:-----------:|
+| 代码补全 | `Ctrl`+`空格`   | 智能代码补全  | `Ctrl`+`Shift`+`空格` |
