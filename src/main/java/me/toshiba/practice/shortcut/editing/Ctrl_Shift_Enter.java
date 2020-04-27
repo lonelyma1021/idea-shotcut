@@ -1,5 +1,10 @@
 package me.toshiba.practice.shortcut.editing;
 
+import org.apache.commons.collections4.CollectionUtils;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 补全语句
  *
@@ -13,4 +18,25 @@ public class Ctrl_Shift_Enter {
      * 点击 Ctrl + Shift + Enter
      */
     private void completeMethod()
+
+    private void completeStatement() {
+        List<String> nameList = new ArrayList<String>(0);
+        /**
+         * 将光标定位至 'nameList' 后
+         * 点击 Ctrl + Shift + Enter
+         */
+        if (CollectionUtils.isEmpty(nameList))
+
+        /**
+         * 将光标定位至圆括号内
+         * 输入 'nameList'
+         * 点击 Ctrl + Shift + Enter
+         */
+        queryByList()
+    }
+
+    private void queryByList(List<String> list) {
+
+    }
+
 }

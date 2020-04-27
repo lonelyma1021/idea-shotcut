@@ -28,4 +28,5 @@ Settings -> Editor -> File Encodings -> Global Encoding
 
 |     功能    |    快捷键    |     功能    |    快捷键    |
 |:-----------:|:-----------:|:-----------:|:-----------:|
-| 代码补全 | `Ctrl`+`空格`   | 智能代码补全  | `Ctrl`+`Shift`+`空格` |
+| 补全代码 | `Ctrl`+`空格`   | 智能补全代码  | `Ctrl`+`Shift`+`空格` |
+| 补全语句 | `Ctrl`+`Shift`+`Enter` |
