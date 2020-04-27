@@ -1,5 +1,7 @@
 package me.toshiba.practice.shortcut.editing;
 
+import java.util.Map;
+
 /**
  * 智能代码补全
  *
@@ -9,11 +11,10 @@ package me.toshiba.practice.shortcut.editing;
 public class Ctrl_Shift_Space {
 
     private void showUsage() {
-         /**
-         取消第 17 行注释 （注释快捷键参见{@link Ctrl_Virgule})
-         将光标定位到‘new’关键字后
-         先敲入一个空格，之后点击 Ctrl+空格
+        /**
+         * 将光标定位到‘new’关键字后
+         * 先敲入一个空格，之后点击 Ctrl+空格
          */
-//        Map<String, String> request = new
+        Map<String, String> request = new
     }
 }
