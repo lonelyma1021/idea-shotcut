@@ -1,9 +1,6 @@
 package me.toshiba.practice.shortcut;
 
-import me.toshiba.practice.shortcut.editing.Ctrl_Shift_Enter;
-import me.toshiba.practice.shortcut.editing.Ctrl_Shift_Space;
-import me.toshiba.practice.shortcut.editing.Ctrl_Space;
-import me.toshiba.practice.shortcut.editing.Ctrl_Virgule;
+import me.toshiba.practice.shortcut.editing.*;
 
 /**
  * 编辑类快捷键汇总
@@ -21,4 +18,17 @@ public class EditingOutline {
 
     // 语句补全
     Ctrl_Shift_Enter statementComplete;
+
+    // 方法参数提示
+    Ctrl_P parameterInfo;
+
+    // 快速查看JavaDoc文档
+    Ctrl_Q documentLookup;
+
+    // 查看异常或警告信息
+    Ctrl_F1 showDescriptionOfErrorOrWarning;
+
+    // 生成代码
+    Alt_Insert generateCode;
+
 }
